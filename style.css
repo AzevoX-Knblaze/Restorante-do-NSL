@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Fundo bege claro */
+    color: #333; /* Texto principal cinza escuro */
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #8b5e3c; /* Marrom claro */
+    color: #f5f5dc; /* Texto do cabeçalho em bege claro */
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #f5f5dc; /* Título em bege claro */
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #fdfdfd; /* Texto de boas-vindas em branco */
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff; /* Fundo branco para contraste */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #d2691e; /* Laranja para títulos */
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 0.5rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li h3 {
+    font-size: 1.4rem;
+    color: #8b5e3c; /* Marrom claro para os nomes dos pratos */
+  }
+  
+  li p {
+    font-size: 1rem;
+    color: #666; /* Cinza claro para a descrição dos pratos */
+    margin: 0.5rem 0;
+  }
+  
+  .preco {
+    font-weight: bold;
+    color: #d2691e; /* Laranja para destacar o preço */
+  }
+  
+  /* Estilo da Barra de Busca */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+  }
+  
+  #searchInput {
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 600px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Cinza claro */
+  }
+  

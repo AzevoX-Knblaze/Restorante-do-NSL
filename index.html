@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio do Restaurante</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Nosso Restaurante</h1>
+    <p>Confira nosso cardápio abaixo</p>
+  </header>
+
+  <!-- Barra de busca para o filtro -->
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Buscar no cardápio...">
+  </div>
+
+  <main>
+    <!-- Seção de Pratos Principais -->
+    <section id="principais">
+      <h2>Pratos Principais</h2>
+      <ul>
+        <li class="menu-item">
+          <h3>Feijão Tropeiro</h3>
+          <p>Feijão com farinha de mandioca, linguiça, ovos e temperos.</p>
+          <span class="preco">R$ 25,00</span>
+        </li>
+        <li class="menu-item">
+          <h3>Lasanha</h3>
+          <p>Lasanha ao forno com camadas de massa, carne moída, molho de tomate e queijo.</p>
+          <span class="preco">R$ 30,00</span>
+        </li>
+        <li class="menu-item">
+          <h3>Feijoada</h3>
+          <p>Feijão preto com carne seca, linguiça e costelinha de porco. Acompanha arroz e couve.</p>
+          <span class="preco">R$ 35,00</span>
+        </li>
+        <li class="menu-item">
+          <h3>Parmegiana de Frango</h3>
+          <p>Filé de frango empanado com molho de tomate e queijo derretido. Servido com arroz e batatas fritas.</p>
+          <span class="preco">R$ 28,00</span>
+        </li>
+        <li class="menu-item">
+          <h3>Churrasco Completo</h3>
+          <p>Picanha, linguiça e frango grelhados. Acompanha farofa, vinagrete e arroz.</p>
+          <span class="preco">R$ 45,00</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Seção de Bebidas Não-Alcoólicas -->
+    <section id="bebidas-nao-alcoolicas">
+      <h2>Bebidas Não-Alcoólicas</h2>
+      <ul>
+        <li class="menu-item">
+          <h3>Suco Natural</h3>
+          <p>Escolha entre suco de laranja, limão, abacaxi ou manga.</p>
+          <span class="preco">R$ 8,00</span>
+        </li>
+        <li class="menu-item">
+          <h3>Refrigerante</h3>
+          <p>Opções de Coca-Cola, Guaraná, Fanta e Sprite.</p>
+          <span class="preco">R$ 6,00</span>
+        </li>
+        <li class="menu-item">
+          <h3>Água Mineral</h3>
+          <p>Água mineral com ou sem gás.</p>
+          <span class="preco">R$ 3,00</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Seção de Bebidas Alcoólicas -->
+    <section id="bebidas-alcoolicas">
+      <h2>Bebidas Alcoólicas</h2>
+      <ul>
+        <li class="menu-item">
+          <h3>Cerveja</h3>
+          <p>Cerveja gelada disponível em várias marcas.</p>
+          <span class="preco">R$ 10,00</span>
+        </li>
+        <li class="menu-item">
+          <h3>Caipirinha</h3>
+          <p>Cachaça, limão e açúcar. Uma bebida brasileira tradicional.</p>
+          <span class="preco">R$ 12,00</span>
+        </li>
+        <li class="menu-item">
+          <h3>Vinho</h3>
+          <p>Escolha entre vinho tinto ou branco, ideal para acompanhar as refeições.</p>
+          <span class="preco">R$ 20,00 (taça)</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Inclua o arquivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
